@@ -22,13 +22,13 @@ End If
 oShell.Run chr(34) & strPath & chr(34), 1, False
 
 ' Wait for the first dialog window to appear
-WScript.Sleep 3000
+WScript.Sleep 1000
 
 ' Send an "Enter" key press to click the first "OK" button
 oShell.SendKeys "{ENTER}"
 
 ' Wait for the second dialog window to appear
-WScript.Sleep 2000
+WScript.Sleep 1000
 
 ' Send another "Enter" key press to click the second "OK" button
 oShell.SendKeys "{ENTER}"
